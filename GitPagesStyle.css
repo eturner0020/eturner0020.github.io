@@ -1,4 +1,9 @@
-﻿body 
+﻿header
+{
+    border:15px solid yellow;
+}
+
+body 
 {
     background-color: navy;
 }
