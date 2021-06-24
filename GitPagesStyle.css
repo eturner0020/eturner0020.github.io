@@ -1,6 +1,23 @@
 ﻿header
 {
-    border:15px solid yellow;
+    width: auto;
+    height:auto;
+    border:15px solid lightblue;
+    padding: 0px 20px 50px 20px;
+    margin: 15px;
+}
+
+.left
+{
+    float:left;
+    padding: 40px 28px 0px 0;
+    width:170px;
+    height:auto;
+}
+
+html
+{
+    background-color: navy;
 }
 
 body 
@@ -11,20 +28,87 @@ body
 h1
 {
     color: lightblue;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px;
+    padding: 0 0 0 0;
+}
+
+h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 p1
 {
-    color: lightblue;
+    color: white;
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:50px;
+}
+
+aside
+{
+    width:160px;
+    float:left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#vert_nav ul
+{
+    list-style-type:none;
+    margin-left:-35px;
+    margin-bottom:-5;
+    margin-top:-10px
+}
+
+#vert_nav ul li
+{
+    width:270px;
+    margin-bottom:.5em;
+    border:5px solid lightblue;
+    background-color:navy;
+}
+
+#vert_nav ul li a
+{
+    display:block;
+    padding: 1em 1em 1em 1em; 
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+
+.socialmediaicon
+{
+    float:left;
+    width: 40px;
+    padding: 13px 10px 0 50px;
 }
 
 div
 {
-    width: 300px;
-    border: 15px solid yellow;
+    width: auto;
+    height:722px;
+    border: 15px solid lightblue;
+    padding-left: 20px;
+    margin-top:0px;
+    margin-left:300px;
+    margin-right:15px;
+    margin-bottom:auto;
+}
+
+footer
+{
+    clear:both;
+    width:auto;
+    height:auto;
+    border: 15px solid lightblue;
     padding: 50px;
-    margin: 20px
+    margin: 20px;
+    margin-right:15px;
 }
